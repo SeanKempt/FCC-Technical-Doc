@@ -2,13 +2,8 @@
     background-color: whitesmoke;
 }
 
-#main-doc {
-    overflow-y: auto;
-    flex-grow: 1;
-}
-
 .navbar {
-    align-items: unset;
+    align-items: center;
 }
 
 .nav-link {
@@ -22,6 +17,7 @@ li {
 #data-types ul li {
     list-style: circle;
 }
+
 code {
     display:block;
     text-align: left;
@@ -34,4 +30,10 @@ code {
     padding:15px;
     margin:10px;
     border-radius:5px;
+}
+
+@media (min-width: 1110px) {
+    #navbar {
+        position: fixed;
+    }
 }
